@@ -1,207 +1,348 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <title>Turn into coders // First bootcamp</title>
-  <meta name="description" content="Our Week 1 project">
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Layout 2</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript" src="js/slick.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+	<script type="text/javascript" src="js/scripts.js"></script>
+	<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
 </head>
-
 <body>
-  <div class="page__container">
-    <header id="header" class="header">
-      <div class="header__container">
-        <div class="logo__container">
-          <h1 class="logo__title">Turn into coders</h1>
-        </div>
-
-        <nav>
-          <div class="nav__container">
-            <ul class="nav__list">
-              <a class="nav__link" href="#about"><li class="nav__element">About</a></li>
-              <a class="nav__link" href="#projects"><li class="nav__element">Project</a></li>
-              <a class="nav__link" href="#team"><li class="nav__element">Team</a></li>
-              <a class="nav__link" href="#contact"><li class="nav__element">Contact</a></li>
-            </ul>
-          </div>
-        </nav>
-
-      </div>
-    </header>
-
-    <figure class="headline__image">
-      <figcaption class="headline__text"> Web Developers based in Turin. </figcaption>
-    </figure>
-
-    <section id="about" class="about">
-      <div class="about__container">
-
-        <h2 class="section__title about__title">We’re training</h2>
-        <p>We are small developers who aspire to become big…</p>
-      </div>
-
-    </section>
-
-    <section id="projects" class="projects">
-      <h2 class="section__title project__title">Our Projects</h2>
-      <p class="class__text">Growing skills and projects everyday</p>
-      <br>
-      <div class="team__gallery">
-
-        <figure class="photo">
-          <a href="https://tic-1.github.io/Week2_project_todoAPP/" target="_blank"><img src="images/todoIcon.jpg" alt="TodoAPP" width="100%">
-          <figcaption>ToDo App</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://tic-1.github.io/Week3_project_musicmeteoAPP/" target="_blank"><img src="images/musicIcon-01.jpg" alt="MusicMetheoro" width="100%">
-          <figcaption>MusicMetheo</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://tic1-todo.herokuapp.com/" target="_blank"><img src="images/dbIcon-01.jpg" alt="Todo DB" width="100%">
-          <figcaption>ToDo with DB</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://tic-1-autocompleter.herokuapp.com/" target="_blank"><img src="images/autoIcon.jpg" alt="Autocompletor" width="100%">
-          <figcaption>Autocompletor</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://blogifyck.herokuapp.com/" target="_blank"><img src="images/pigeonIcon.jpg" alt="Pigeon" width="100%">
-          <figcaption>Pigeon</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://cryptofyck.herokuapp.com/" target="_blank"><img src="images/cryptoIcon-01.jpg" alt="Crypto" width="100%">
-          <figcaption>Cryptonverter</figcaption></a>
-        </figure>
-
-        <figure class="photo">
-          <a href="https://bootcampknowledge.herokuapp.com/" target="_blank"><img src="images/treeIcon-01.jpg" alt="Skills" width="100%">
-          <figcaption>JS Skills</figcaption></a>
-        </figure>
 
 
-      </div>
-    </section>
 
-    <section id="team" class="team">
-      <div class="team__container">
+	<!-- Header -->
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-sm-4 logo">
+					<span class="icon-text">Progetto</span>
+						<div class="icon-logo"><span>N</span></div>
+							<div class="icon-logo"><span>E</span></div>
+					<div class="icon-logo"><span>T</span></div>
+				</div>
+				<nav class="col-lg-5 col-lg-offset-3 col-sm-8 navigation">
+					<ul>
+						<li><a href="#" class="about">About</a></li
+						><li><a href="#" class="services">Services</a></li
+						><li><a href="#" class="works">Our works</a></li
+						><li><a href="#" class="contact">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<div class="spacer" id="header">
+		&nbsp;
+	</div>
 
-        <h2 class="section__title team__title">We’re a team</h2>
-        <p>And we're on the way to become the DREAM team!</p>
 
-        <div class="team__gallery">
 
-          <figure class="photo">
-            <img src="images/DSC_0710.jpg" alt="Alberto" width="100%">
-            <figcaption>Alberto</figcaption>
-            <h3>Flex addict</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/alberto-de-stefani-b7719613a/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/Orionlight231"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/Orionlight231"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+	<!-- Slider and his buttons -->
+	<div class="col-lg-12 slider">
+		<div><img src="images/banner.jpg" alt="Banner image">
+			<button class="button-left">
+				<span class="fa fa-angle-left arrow-left" aria-hidden="true"></span>
+			</button>
+			<button class="button-right">
+				<span class="fa fa-angle-right arrow-right" aria-hidden="true"></span>
+			</button>
+			<div class="slider-text">
+				<p>Lorem ipsum dolor</p>
+				<p>Aenean id ligula aliquam dolor tristique fringilla</p>
+				<input type="submit" value="Candidati" onclick="window.location.href='https://docs.google.com/forms/d/1T8kaSQtoXDQ0dOEA9zhhPSI3QgEMW3poS9jDDA-GDao/edit'">
+			</div>
+		</div>
+		<div><img src="images/banner.jpg" alt="Banner image">
+			<button class="button-left">
+				<span class="fa fa-angle-left arrow-left" aria-hidden="true"></span>
+			</button>
+			<button class="button-right">
+				<span class="fa fa-angle-right arrow-right" aria-hidden="true"></span>
+			</button>
+			<div class="slider-text">
+				<p>Lorem ipsum dolor</p>
+				<p>Aenean id ligula aliquam dolor tristique fringilla</p>
+				<input type="submit" value="Candidati" onclick="window.location.href='https://docs.google.com/forms/d/1T8kaSQtoXDQ0dOEA9zhhPSI3QgEMW3poS9jDDA-GDao/edit'">
 
-          <figure class="photo">
-            <img src="images/DSC_0714.jpg" alt="Matteo" width="100%">
-            <figcaption>Matteo</figcaption>
-            <h3>Hamburger menu Ninja, yum!</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/matteo-r-a44030135/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/Abrax-"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/Abrax-"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+			</div>
+		</div>
+		<div><img src="images/banner.jpg" alt="Banner image">
+			<button class="button-left">
+				<span class="fa fa-angle-left arrow-left" aria-hidden="true"></span>
+			</button>
+			<button class="button-right">
+				<span class="fa fa-angle-right arrow-right" aria-hidden="true"></span>
+			</button>
+			<div class="slider-text">
+				<p>Lorem ipsum dolor</p>
+				<p>Aenean id ligula aliquam dolor tristique fringilla</p>
+				<input type="submit" value="Candidati" onclick="window.location.href='https://docs.google.com/forms/d/1T8kaSQtoXDQ0dOEA9zhhPSI3QgEMW3poS9jDDA-GDao/edit'">
 
-          <figure class="photo">
-            <img src="images/DSC_0703.jpg" alt="Giulia" width="100%">
-            <figcaption>Giulia</figcaption>
-            <h3>In &lt;3 with her new laptop</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/giulia-spina-737a2178/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/spinagiu"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/spinagiu"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+			</div>
+		</div>
+	</div>
 
-          <figure class="photo">
-            <img src="images/DSC_0706.jpg" alt="Claudio" width="100%">
-            <figcaption>Claudio</figcaption>
-            <h3>Rocket (science) Man</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/claudio-scafesi-565b27129/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/clodpheasant"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/clodpheasant"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+	<!-- Main text "About company" -->
+		<article class="container text" id="about">
+			<div class="row">
+				<div class="col-lg-12 main-text">
+					<span class="mini-title">Donec tristique rutrum</span>
+					<h1 class="title">About company</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis dui non nulla fermentum sollicitudin. Nunc dictum finibus dui, in ornare lectus venenatis eget. Sed mollis tellus auctor lorem congue, in tincidunt leo pharetra. Nulla facilisi. Mauris sed justo consequat, pretium sem in, tempor sapien. Vestibulum maximus leo fermentum risus vehicula, nec blandit risus tincidunt. Nulla elementum congue turpis. Aenean id ligula aliquam dolor tristique fringilla. Aenean vel faucibus leo, ac iaculis sem. Suspendisse in erat id leo ultricies euismod eget et ex. Praesent tempus magna justo, a ultrices sem molestie non. Phasellus id mi quis dolor sollicitudin condimentum. Maecenas blandit leo nulla, a convallis ex laoreet vel. Maecenas iaculis massa placerat leo rutrum, et luctus diam sollicitudin. Cras nisl orci, ullamcorper non nisi eu, ultricies facilisis purus.</p>
+					<p>Suspendisse potenti. Cras cursus ex nulla, ac faucibus leo suscipit in. Nulla maximus pellentesque sapien, et tincidunt nisl malesuada feugiat. Cras ac tortor hendrerit, tristique elit sed, placerat justo. Mauris sit amet malesuada nisl, vel tincidunt eros. Cras eget tempus nibh. Mauris rutrum risus at enim sollicitudin, sed posuere lectus suscipit. Morbi velit felis, viverra et quam ut, tincidunt cursus nisl. Phasellus tincidunt, ex bibendum viverra bibendum, mi nisi ultrices elit, laoreet faucibus massa est a massa.</p>
+					<button type="button">Read more</button>
+				</div>
+			</div>
+		</article>
 
-          <figure class="photo">
-            <img src="images/DSC_0709.jpg" alt="Iannis" width="100%">
-            <figcaption>Iannis</figcaption>
-            <h3>Lost in cyberspace ;-)</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/ianniscamillieri/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/ianniscamillieri"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/ianniscamillieri"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+	<!-- Our services block-->
+	<section class="features-block" id="services">
+		<div class="container features">
+			<div class="row">
+				<span class="mini-title">Lorem ipsum</span>
+				<h2 class="title">Our services</h2>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-users icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-comments icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-trophy icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-star icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-plane icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 some-feature">
+					<div class="box-icon">
+						<span class="icon-inner">
+							<span class="fa fa-graduation-cap icons" aria-hidden="true"></span>
+						</span>
+					</div>
+					<div class="feature-text">
+						<h3>Some service</h3>
+						<p>Sed orci nibh, rhoncus ut tellus quis, sodales ornare arcu. Pellentesque rutrum tellus ut mauris scelerisque</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-          <figure class="photo">
-            <img src="images/DSC_0718.jpg" alt="Iannis" width="100%">
-            <figcaption>Matteo</figcaption>
-            <h3>Mentor Jack is in the place!</h3>
-            <div class="photo__social_link">
-              <ul class="social_link">
-                <li class="social_link_list"><a href="https://www.linkedin.com/in/mgiacco/"><i class="fa fa-linkedin-square"></i></a></li>
-                <li class="social_link_list"><a href="https://github.com/matjack1"><i class="fa fa-github-square"></i></a></li>
-                <li class="social_link_list"><a href="https://www.codewars.com/users/mat_jack1"><i class="fa fa-code"></i></a></li>
-              </ul>
-            </div>
-          </figure>
+	<!-- Subscribe block -->
+	<section class="subscribe-block">
+		<div class="container subscribe">
+			<div class="row">
+				<div class="col-lg-8 col-sm-8 text">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit?</p>
+					<p>Cras ac tortor hendrerit, tristique elit sed, placerat justo.</p>
+				</div>
+				<div class="col-lg-4 col-sm-4 button">
 
-        </div>
-      </div>
-    </section>
 
-    <section id="contact" class="contact">
-      <div class="contact__container">
-        <h2 class="section__title contact__title">We’re for hire</h2>
-        <p class="class__text">Book your project now! Contact us…</p>
-        <form action="https://formspree.io/tic1@mailinator.com" method="POST">
-          <div class="contactForm__field">Your name<input type="text" name="name" placeholder="John Doe"></div>
-          <div class="contactForm__field">Your email<input type="email" name="_replyto" placeholder="johndoe@domain.com"></div>
-          <div class="contactForm__field">Your Message<textarea type="text" name="message" placeholder="Your websites are amazing. I definitely want one! Please call me ASAP. John"></textarea></div>
-          <div class="contactForm__button"><input type="submit" value="Send"></div>
-        </form>
-      </div>
-    </section>
+					<button onclick="window.location.href='https://docs.google.com/forms/d/1T8kaSQtoXDQ0dOEA9zhhPSI3QgEMW3poS9jDDA-GDao/edit'">Candidati</button>
+				</div>
+			</div>
+		</div>
+	</section>
 
-    <footer id="footer" class="footer">
-      <div class="footer__container">
-        <p>COPYRIGHT © 2018 TiC1 | follow us: </i>  <a href="https://github.com/TiC-1" target="_blank"><i class="fa fa-github-square git"></i></a></p>
-      </div>
-    </footer>
+	<!-- Our Works block - Portfolio -->
+	<div class="portfolio-block" id="works">
+		<div class="container portfolio">
+			<span class="mini-title">Morbi rhoncus</span>
+			<h2 class="title">Our works</h2>
+			<div class="img-wrapper">
+				<div class="row">
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-1.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+							<div class="icon">
+								<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+							</div>
+							<div class="description">
+									<p>Ut pretium leo vel</p>
+									<p>Category</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-2.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+								<div class="icon">
+									<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+								</div>
+								<div class="description">
+										<p>Ut pretium leo vel</p>
+										<p>Category</p>
+								</div>
+							</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-3.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+							<div class="icon">
+								<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+							</div>
+							<div class="description">
+									<p>Ut pretium leo vel</p>
+									<p>Category</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-4.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+							<div class="icon">
+								<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+							</div>
+							<div class="description">
+									<p>Ut pretium leo vel</p>
+									<p>Category</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-5.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+							<div class="icon">
+								<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+							</div>
+							<div class="description">
+									<p>Ut pretium leo vel</p>
+									<p>Category</p>
+							</div>
+						</a>
+					</div>
+					<div class="col-lg-4 col-md-4 col-sm-6 item">
+						<img src="images/item-6.jpg" alt="Portfolio image">
+						<a href="#" class="hide-item">
+							<div class="icon">
+								<span class="fa fa-external-link white-icon" aria-hidden="true"></span>
+							</div>
+							<div class="description">
+									<p>Ut pretium leo vel</p>
+									<p>Category</p>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-  </div>
+	<!-- Contacts block -->
+	<div class="contacts-block" id="contact">
+		<div class="container contacts">
+			<div class="col-lg-3 col-sm-6 contacts-col">
+				<span class="mini-title">tristique</span>
+				<h2 class="title">Contact</h2>
+			</div>
+			<div class="col-lg-3 col-sm-6 contacts-col">
+				<div class="icon">
+					<span class="fa fa-map-marker white-icon" aria-hidden="true"></span>
+				</div>
+				<p class="contacts-text">2619 Old Fort Rd<br>
+				Fort Washington, PA 19034
+				</p>
+			</div>
+			<div class="col-lg-3 col-sm-6 contacts-col">
+				<div class="icon">
+					<span class="fa fa-phone white-icon" aria-hidden="true"></span>
+				</div>
+				<p class="contacts-text">610-516-0418</p>
+			</div>
+			<div class="col-lg-3 col-sm-6 contacts-col">
+				<div class="icon">
+					<span class="fa fa-at white-icon" aria-hidden="true"></span>
+				</div>
+				<p class="contacts-text">layout.02@gmail.com</p>
+		</div>
+		</div>
+	</div>
+
+	<!-- Google maps -->
+	<div class="maps-wrapper">
+		<div class="maps-block" id="map">
+		</script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyANIph1g8aQ0frujUcuay_GdNpaJWk4OzI&callback=initMap"
+	async defer></script>
+		</div>
+		<button class="up-button">
+			<span class="fa fa-angle-up up-icon" aria-hidden="true"></span>
+		</button>
+	</div>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container footer">
+			<div class="col-lg-4 col-sm-4 col-xs-12 footer-col">
+				<span>Copyright 2016 © Layout.02</span>
+			</div>
+			<div class="col-lg-4 col-sm-3 col-xs-12 footer-col">
+				<a href="#" class="fa fa-facebook social-icons" aria-hidden="true"></a>
+				<a href="#" class="fa fa-twitter social-icons" aria-hidden="true"></a>
+				<a href="#" class="fa fa-linkedin social-icons" aria-hidden="true"></a>
+				<a href="#" class="fa fa-pinterest-p social-icons" aria-hidden="true"></a>
+				<a href="#" class="fa fa-google-plus social-icons" aria-hidden="true"></a>
+			</div>
+			<div class="col-lg-4 col-sm-5 col-xs-12 footer-col">
+				<a href="#">Privacy Policy</a>
+				<a href="#">Terms & Conditions</a>
+			</div>
+		</div>
+	</footer>
+
 </body>
-
 </html>
