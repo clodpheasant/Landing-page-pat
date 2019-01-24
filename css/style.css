@@ -314,7 +314,7 @@ article .main-text p:nth-child(4) {
 .features .feature-text h3 {
 	font: 1.25rem 'Montserrat', sans-serif;
 	color: #212121;
-	
+
 	margin-bottom: 0.575rem;
 	line-height: 1.22rem;
 }
@@ -658,4 +658,8 @@ footer .footer-col a.social-icons:active {
   	margin-left: auto;
     margin-right: auto;
   }
+
+	.hider {
+		visibility: hidden;
+	}
 }
