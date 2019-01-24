@@ -314,9 +314,9 @@ article .main-text p:nth-child(4) {
 .features .feature-text h3 {
 	font: 1.25rem 'Montserrat', sans-serif;
 	color: #212121;
-	text-transform: uppercase;
+	
 	margin-bottom: 0.575rem;
-	line-height: 0.92rem;
+	line-height: 1.22rem;
 }
 .features .feature-text p {
 	font: 1rem/1.25rem 'OpenSans', sans-serif;
