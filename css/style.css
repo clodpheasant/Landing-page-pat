@@ -3,6 +3,7 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, ol, ul, li, form, fiel
 header, footer, nav, section, article, main { display: block; }
 ol, ul { list-style: none; }
 
+
 /* Fonts */
 @font-face {
 	font-family: Montserrat;
@@ -68,6 +69,7 @@ header .icon-logo {
 	-webkit-box-sizing: content-box;
   	 -moz-box-sizing: content-box;
   				box-sizing: content-box;
+
 }
 header .icon-logo span {
 	margin: 0;
@@ -228,6 +230,10 @@ article .main-text button:active {
 article .main-text p:nth-child(4) {
 	padding-top: 1.4375rem;
 	padding-bottom: 1.875rem;
+}
+.lista {
+	font: 1rem/1.375rem 'OpenSans', sans-serif;
+	color: #616161;
 }
 
 /* Our Services Block */
