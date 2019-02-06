@@ -640,10 +640,10 @@ footer .footer-col a.social-icons:active {
 	.slider {
 		top: 0;
 	}
-	.slider img {
+	/*.slider img {
 		height: 15rem;
 		width: auto;
-	}
+	}*/
 	.subscribe .text {
 		text-align: center;
 		width: 100%;
