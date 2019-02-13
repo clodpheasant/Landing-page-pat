@@ -31,6 +31,15 @@ ol, ul { list-style: none; }
 	font-style: normal;
 }
 
+.positioning {
+	padding-top: 10px;
+	text-align: center;
+
+}
+.button2 {
+
+}
+
 /* General styles */
 html {
 	font-family: 'Open Sans', sans-serif;
@@ -188,7 +197,7 @@ header .navigation>ul>li {
 	height: 2.875rem;
 	font: 1.125rem 'BlendaScript', sans-serif;
 	color: #fff;
-	background: transparent;
+	background: #C1CB3D;
 	border: 2px solid #C1CB3D;
 	/* text-transform: uppercase; */
 	-webkit-box-sizing: content-box;
@@ -640,10 +649,10 @@ footer .footer-col a.social-icons:active {
 	.slider {
 		top: 0;
 	}
-	.slider img {
+	/*.slider img {
 		height: 15rem;
 		width: auto;
-	}
+	}*/
 	.subscribe .text {
 		text-align: center;
 		width: 100%;
