@@ -7,7 +7,7 @@ ol, ul { list-style: none; }
 /* Fonts */
 @font-face {
 	font-family: BlendaScript;
-	src: url(../fonts/BlendaScript.ttf);
+	src: url(../fonts/BlendaScript.otf);
 	font-weight: normal;
 	font-style: normal;
 }
