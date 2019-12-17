@@ -193,10 +193,11 @@ header .navigation>ul>li {
 	margin-bottom: 2.25rem;
 }
 .slider-text [type="submit"] {
-	min-width: 11.625rem;
-	height: 2.875rem;
+	min-width: 18.625rem;
+	height: 5.875rem;
 	font: 1.125rem 'BlendaScript', sans-serif;
-	color: #fff;
+	font-size: 3.125rem;
+	color: ;
 	background: #C1CB3D;
 	border: 2px solid #C1CB3D;
 	/* text-transform: uppercase; */
@@ -604,7 +605,7 @@ footer .footer-col a.social-icons:active {
 		font-size: 0.625rem;
 	}
 	.slider-text [type="submit"] {
-		font-size: 0.75rem;
+		font-size: 2.00rem;
 	}
 }
 /* 2 portfolio images in one screen */
